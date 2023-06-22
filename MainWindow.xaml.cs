@@ -32,7 +32,11 @@ namespace FinalProgrammingIII
         public MainWindow()
         {
             InitializeComponent();
-        }
+
+            professionaluser.Add(new UserAccount("Gamora", "Gamora", "Gamora", UserAccount.Role.BeautyStudent));
+            
+
+        }        
 
         private void btnEnter_Click(object sender, RoutedEventArgs e)
         {
